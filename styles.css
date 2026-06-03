@@ -1,0 +1,98 @@
+/*
+Color principal: #ef8e7d
+Color de énfasis: #e2aa87
+Color de fondo: #edd8bb
+Color de texto: #15212a
+*/
+
+body{
+    background-color:#edd8bb;
+    font-family: 'open sans',sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px   ;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+a{
+    transition: color 0.3s ease, font-weight 0.3s ease, font-family 0.3s ease;
+}
+a:hover{
+    color: black;
+    font-weight: bold;
+    font-family: 'Host Grotesk', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.bio{
+    font-family: 'Host Grotesk', sans-serif;
+    color: #15212a;
+}
+.card{
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 700px;
+    border: 5px solid transparent;
+    transition: box-shadow 0.3s ease, border 0.3s easemargin-bottom: 50px;;
+
+}
+.card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    border: 5px solid   #15212a;
+}
+
+#mi-foto{
+max-width: 400px;
+display: flex;
+justify-content:center;
+background-color: #e2dd87;
+}
+
+#mi-foto img{
+width: 700px;
+
+}
+
+#mi-biografía{
+max-width: 700px;
+background-color: #e2aa87;
+}
+
+#mis-pasatiempos{
+max-width: 700px;
+background-color: #e45b0c;
+}
+
+#referencia-de-contacto{
+max-width: 700px;
+background-color: #e4a30c;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-inline: 50px;
+    background-color: aquamarine;
+}
+#sobre-mi{
+    display: flex;
+    justify-content: space-between;
+}
+#sobre-mi p:hover{
+    color: #e45b0c;
+}
+
+}
+#derechos{
+    display: flex;
+    justify-content: space-between;
+}
